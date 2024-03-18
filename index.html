@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Elden Ring Bosses</title>
+    <link rel="stylesheet" type="text/css" href="output.css">
+</head>
+
+<body class="flex flex-col items-center">
+    <div class="bg-slate-100 w-3/5 p-10">
+        <header class="p-10 text-center">
+            <h1 class="text-blue-900 text-2xl">Elden Ring Bosses</h1>
+
+            Elden Ring hosts a great number of bosses, who have varying mechanics and difficulty. This website provides
+            a
+            <em>totally accurate</em>
+            description of some of the bosses.
+        </header>
+
+        <article class="flex flex-col items-center bg-slate-200 p-5 rounded-md mb-5">
+            <h2 class="text-xl text-orange-400">Margit, the Fell Omen</h2>
+            <img class="rounded-md shadow-2xl shadow-dark-900 p-5 m-5 bg-black"
+                src="https://eldenring.wiki.fextralife.com/file/Elden-Ring/margit-1-boss-elden-ring-wiki.jpg" />
+            <p>
+                Margit, the Fell Omen is one of the first bosses you meet in Elden Ring. He is a large, humanoid boss
+                with a
+                sword-like staff. He has a variety of attacks, including a charge, a slam, and a spin attack. Even
+                though he
+                is a relatively easy boss his attacks tend to be <em>misleadingly telegraphed</em> and provoke many
+                beginners to dodge excessively, only to end up caught by surprise and defeated.
+            </p>
+        </article>
+
+        <!-- <br /> -->
+
+        <div class="p-5 bg-slate-200 rounded-md mb-5">
+            <h3 class="text-lg">Margit's attacks</h3>
+            <div class="table table-auto border-2 border-transparent border-collapse divide-y divide-slate-700">
+                <div class="table-header-group bg-slate-300">
+                    <div class="table-row">
+                        <div class="table-cell p-2">Attack</div>
+                        <div class="table-cell p-2">Description</div>
+                    </div>
+                </div>
+                <div class="table-row-group divide-y divide-slate-500">
+                    <div class="table-row">
+                        <div class="table-cell p-2">Charge</div>
+                        <div class="table-cell p-2">Margit charges towards the player,
+                            dealing <strong>heavy damage</strong>.
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell p-2">Slam</div>
+                        <div class="table-cell p-2">Margit slams his greatsword onto the
+                            ground, creating
+                            <strong>shockwaves</strong>.
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell p-2">Spin Attack</div>
+                        <div class="table-cell p-2">Margit performs a spinning attack,
+                            hitting <strong>all nearby
+                                enemies</strong>.</div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <h3 class="text-lg">Margit's drops</h3>
+            <ol type="I" class="list-decimal flex flex-row">
+                <li class="flex-auto bg-yellow-500 p-4 m-4 rounded-md">Margit's Wooden Staff</li>
+                <li class="flex-auto bg-yellow-500 p-4 m-4 rounded-md">Margit's Laurel Crown</li>
+                <li class="flex-auto bg-yellow-500 p-4 m-4 rounded-md">Margit's Golden Tooth</li>
+            </ol>
+        </div>
+
+
+        <div class="bg-slate-200 rounded-md p-5 mb-5">
+            <h3 class="text-lg">Poll of Margit's difficulty:</h3>
+            <form class="flex flex-col divide-y divide-slate-500">
+                <div class="p-4">
+                    <label class="mr-5" for="email">Email address:</label>
+                    <input id="email" type="text">
+                </div>
+                <div class="p-4">
+                    <label class="mr-5" for="level">Have you defeated Margit?</label>
+                    <select class="bg-white px-4 py-2">
+                        <optgroup label="Have you?">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <input
+                    class="border-none cursor-pointer bg-blue-500 text-white animate-pulse pl-10 pr-10 pt-3 pb-3 rounded-lg border-black"
+                    type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="p-5 bg-slate-200 mb-5 flex flex-col flex-shrink rounded-md mb-5">
+            <label class="text-lg mb-5" for="completion">Percentage of players who defeated Margit: </label>
+            <div class="flex flex-row gap-x-5">
+                <div class="text-center w-20 bg-slate-500 rounded-full p-5 text-white">0%</div>
+                <progress class="w-full rounded-full bg-white" id="completion" value="68" max="100">68%</progress>
+                <div class="text-center w-20 bg-slate-500 rounded-full p-5 text-white">100%</div>
+            </div>
+        </div>
+
+        <details class="p-5 rounded-md mb-5 bg-slate-200">
+            <summary class="text-xl">Margit's story</summary>
+            <div class="mt-5">
+                Margit, the Fell Omen, is a powerful sorcerer who has been corrupted by the power of the Elden Ring. He
+                was
+                once a wise and benevolent ruler, but the power of the ring has twisted him into a malevolent force. He
+                now
+                seeks to spread chaos and destruction throughout the lands, and it is up to the player to stop him.
+            </div>
+        </details>
+
+
+
+        <div class="w-full flex flex-col items-center rounded-md bg-slate-200 p-5">
+            <h3 class="mb-5"><strong>
+                    For information about other bosses available in the game please refer to the sites
+                    of
+                    specific regions
+                    accessible from this map.
+                </strong></h3>
+            <map id="landsbetween">
+                <area shape="rect" coords="128,400,330,680" alt="Liurnia of the Lakes"
+                    href="https://eldenring.wiki.fextralife.com/Liurnia+of+the+Lakes" target="_blank" />
+                <area shape="rect" coords="200,246,528,449" alt="Altus Plateau"
+                    href="https://eldenring.wiki.fextralife.com/Altus+Plateau" target="_blank" />
+                <area shape="rect" coords="301,690,500,832" alt="Limgrave"
+                    href="https://eldenring.wiki.fextralife.com/Limgrave" target="_blank" />
+                <area shape="rect" coords="337,853,475,950" alt="Weeping Peninsula"
+                    href="https://eldenring.wiki.fextralife.com/Weeping+Peninsula" target="_blank" />
+                <area shape="rect" coords="503,610,700,834" alt="Caelid"
+                    href="https://eldenring.wiki.fextralife.com/Caelid" target="_blank" />
+                <area shape="rect" coords="833,428,938,550" alt="Crumbling Farum Azula"
+                    href="https://eldenring.wiki.fextralife.com/Crumbling+Farum+Azula" target="_blank" />
+                <area shape="rect" coords="495,166,711,362" alt="Mountaintops of the Giants"
+                    href="https://eldenring.wiki.fextralife.com/Mountaintops+of+the+Giants" target="_blank" />
+                <area shape="rect" coords="530,56,622,156" alt="Miquella's Haligtree"
+                    href="https://eldenring.wiki.fextralife.com/Miquella's+Haligtree" target="_blank" />
+                <!-- <area shape="rect" coords="34,44,270,350" alt="Limgrave" href="https://eldenring.wiki.fextralife.com/Limgrave">
+            <area shape="rect" coords="34,44,270,350" alt="Limgrave" href="https://eldenring.wiki.fextralife.com/Limgrave">
+            <area shape="rect" coords="34,44,270,350" alt="Limgrave" href="https://eldenring.wiki.fextralife.com/Limgrave">
+            <area shape="rect" coords="34,44,270,350" alt="Limgrave" href="https://eldenring.wiki.fextralife.com/Limgrave"> -->
+            </map>
+            <img src="https://eldenring.wiki.fextralife.com/file/Elden-Ring/the_lands_between_map_elden_ring_wiki_guide_600px.jpg"
+                usemap="#landsbetween" width="1000" height="1000" />
+            <a class="mt-5 text-blue-500" target="_blank" href="https://eldenring.wiki.fextralife.com">Source of the
+                map</a>
+
+        </div>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
