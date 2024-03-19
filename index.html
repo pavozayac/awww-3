@@ -6,16 +6,30 @@
     <link rel="stylesheet" type="text/css" href="output.css">
 </head>
 
-<body class="flex flex-col items-center">
-    <div class="bg-slate-100 w-3/5 p-10">
-        <header class="p-10 text-center">
-            <h1 class="text-blue-900 text-2xl">Elden Ring Bosses</h1>
+<body class="grid grid-cols-12 gap-2 p-2">
+    <aside class="col-start-1 col-span-2 row-span-7 grow h-full bg-slate-100 rounded-md p-10 rounded-md flex flex-col">
+        <h3 class="text-xl mb-5">Navigation</h3>
+        <div class="p-5 cursor-pointer bg-slate-300 mb-5 rounded-md hover:bg-slate-500">Fake button</div>
+        <div class="p-5 cursor-pointer bg-slate-300 mb-5 rounded-md hover:bg-slate-500">Fake button</div>
+        <div class="p-5 cursor-pointer bg-slate-300 mb-5 rounded-md hover:bg-slate-500">Fake button</div>
+        <div class="p-5 cursor-pointer bg-slate-300 mb-5 rounded-md hover:bg-slate-500">Fake button</div>
+        <div class="p-5 cursor-pointer bg-slate-300 mb-5 rounded-md hover:bg-slate-500">Fake button</div>
+        <div class="p-5 cursor-pointer bg-slate-300 mb-5 rounded-md hover:bg-slate-500">Fake button</div>
+        <div class="p-5 cursor-pointer bg-slate-300 mb-5 rounded-md hover:bg-slate-500">Fake button</div>
+        <div class="p-5 cursor-pointer bg-slate-300 mb-5 rounded-md hover:bg-slate-500">Fake button</div>
+        <div class="p-5 cursor-pointer bg-slate-300 rounded-md hover:bg-slate-500">Fake button</div>
+    </aside>
 
-            Elden Ring hosts a great number of bosses, who have varying mechanics and difficulty. This website provides
-            a
-            <em>totally accurate</em>
-            description of some of the bosses.
-        </header>
+    <header class="p-10 text-center row-start-1 col-span-6 col-start-4 bg-slate-100 rounded-md">
+        <h1 class="text-blue-900 text-2xl">Elden Ring Bosses</h1>
+
+        Elden Ring hosts a great number of bosses, who have varying mechanics and difficulty. This website provides
+        a
+        <em>totally accurate</em>
+        description of some of the bosses.
+    </header>
+
+    <main class="row-start-2 col-span-6 col-start-4 bg-slate-100 p-10 rounded-md">
 
         <article class="flex flex-col items-center bg-slate-200 p-5 rounded-md mb-5">
             <h2 class="text-xl text-orange-400">Margit, the Fell Omen</h2>
@@ -153,13 +167,13 @@
                 map</a>
 
         </div>
+    </main>
 
-
-
-
-    </div>
-
-
+    <footer class="p-10 bg-slate-100 rounded-md row-start-3 col-span-6 col-start-4">
+        <p class="text-center">This website is a fan-made project and is not affiliated with FromSoftware, Bandai
+            Namco
+            Entertainment or FextraLife.</p>
+    </footer>
 </body>
 
 </html>
